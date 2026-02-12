@@ -1,0 +1,42 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Font */
+  --font-primary: 'Inter', sans-serif;
+
+  /* Core Brand Colors */
+  --color-primary: oklch(52.73% 0.1371 150.07);
+  --color-primary-light: oklch(62.71% 0.1699 149.21);
+  --color-primary-dark: oklch(0.268 0.123 149.5);
+  --color-secondary: oklch(96.7% 0.0029 264.54);
+  --color-warning: oklch(70.49% 0.1867 47.6);
+  --color-error: oklch(63.68% 0.2078 25.33);
+  --color-text-primary: oklch(20.77% 0.0398 265.75);
+  --color-text-secondary: oklch(44.22% 0.0355 257.79);
+  --color-tab-text: oklch(37.17% 0.0392 257.29); /*#334155*/
+  --color-icon-text: oklch(44.55% 0.0374 257.28); /* #475569*/
+  --color-secondary-button-text: oklch(37.29% 0.0306 259.73); /*#374151*/
+  --color-input-background: oklch(96.7% 0.0029 264.54);
+  --color-button-background: oklch(92.88% 0.0126 255.51); /*#e2e8f0*/
+  --color-table-background: oklch(98.46% 0.0017 247.84); /*F9FAFB*/
+  --color-gray-light: oklch(98.46% 0.0017 247.84);
+  --color-border: oklch(91.88% 0.0071 268.54);
+  --color-text-info: oklch(46.03% 0.024 267.04); /*#525866*/
+  --color-text-placeholder: oklch(63.91% 0.0193 264.43); /*#868c98*/
+  --color-nav-bg: oklch(98.42% 0.0034 247.86); /*#F8FAFC*/
+  --color-bg-light: oklch(0% 0 0 / 40%);
+  --color-chat-bg: oklch(92.76% 0.0058 264.53);
+  --shadow-nav-shadow: 0px 4px 4px 0px rgba(207, 207, 207, 0.25);
+  --shadow-tab-shadow: 0px 3.5px 0px 0px rgba(52, 124, 1, 0.27);
+  --shadow-drawer-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+  --radius-lg: 0.6rem;
+
+  /* Status Colors */
+  --color-default: oklch(86.9% 0.0198 252.89); /*CBD5E1*/
+  --color-info: oklch(71.37% 0.1434 254.62); /*60A5FA*/
+  --color-info-text: oklch(62.31% 0.188 259.81); /*3B82F6*/
+  --color-chip-error: oklch(81.35% 0.0911 14.14); /*#F7AAB0*/
+  --color-error-text: oklch(49.73% 0.1807 18.04); /*#B21E39*/
+  --color-success: oklch(80.03% 0.1821 151.71) /*#4ADE80*/;
+  --color-success-text: oklch(52.73% 0.1371 150.07) /*#15803D*/;
+}
